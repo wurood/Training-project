@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Contacts APP</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="fragment_home">Home</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="fragment_favorites">Favorites</string>
+    <string name="add_new_contact">Add Contact</string>
+    <string name="close">Logout</string>
+    <string name="contact_desc">Description</string>
+    <string name="btn_addContact">Add Contact</string>
+    <string name="facebook_app_id">646686432358831</string>
+    <string name="add_contact"> Save </string>
+    <string name="invalid_name">Please enter a valid Name</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="invalid_phone">Please enter a valid Phone</string>
+    <string name="profile_view">profile Details</string>
+    <string name="name_validation">Please Enter User Name</string>
+    <string name="number_validation">Number</string>
+    <string name="email_validation">Email Address</string>
+    <string name="add_button">ADD</string>
+    <string name="update_button">UPDATE </string>
+    <string name="link_Sign_in">Not have an account yet? Register Me</string>
+    <string name="link_Register">have an account ? Sign IN</string>
+    <string name="button_register">Register</string>
+    <string name="register_pass">Enter Your Password </string>
+    <string name="register_email">Enter Your Email</string>
+    <string name="account_view">Create Account</string>
+    <string name="button_sign">SIGN IN</string>
+    <string name="login_view">YOUR ACCOUNT</string>
+    <string name="verfiy">Phone Verify</string>
+    <string name="edit">Edit Contact</string>
+     <string name="twitter_consumer_key" translatable="false"> xmUrovOrGvH6X3rDYZ0M02WAm</string>
+        <string name="twitter_consumer_secret" translatable="false"> hh7UsPKpcsdvD3mCVqhh166uY4eVSNZY0pysi8IzByqvGQoh2p</string>
+
+    <string-array name="array_of_tabs">
+        <item> Home </item>
+        <item> Favorites </item>
+        <item> Add Contact </item>
+    </string-array>
+    <string-array name="array_of_Choice">
+        <item> Edit Contact </item>
+        <item> Delete Contact</item>
+    </string-array>
+
+
+</resources>

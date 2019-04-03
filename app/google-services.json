@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "875488483624",
+    "firebase_url": "https://myapplication-1976c.firebaseio.com",
+    "project_id": "myapplication-1976c",
+    "storage_bucket": "myapplication-1976c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875488483624:android:872ae2f06432a47f",
+        "android_client_info": {
+          "package_name": "com.example.wurood.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875488483624-blrjlv7ai8ske4mfssn85keeolnocs71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wurood.myapplication",
+            "certificate_hash": "621828d18b03e37c3cf2aa35f5631558b754d74c"
+          }
+        },
+        {
+          "client_id": "875488483624-14foe04k5t029kpjnpojejj6aiq2msr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqKmGzmf0wr3Bjbb-MWpQ0P-YMhuOagLI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875488483624-14foe04k5t029kpjnpojejj6aiq2msr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

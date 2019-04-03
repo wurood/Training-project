@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_fragment"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="@string/fragment_home" />
+
+    <item
+        android:id="@+id/favorites_fragment"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/fragment_favorites" />
+
+    <item
+        android:id="@+id/add_contact"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="@string/add_new_contact" />
+    <item
+        android:id="@+id/verfiy"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/verfiy" />
+    <item
+        android:id="@+id/close"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/close" />
+
+
+</menu>

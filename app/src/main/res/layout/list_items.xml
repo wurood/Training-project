@@ -1,0 +1,86 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layout_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image_circular"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            android:transitionName="avatar"
+            tools:ignore="UnusedAttribute" />
+
+        <TextView
+            android:id="@+id/list_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/list_desc"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/list_desc"
+            android:text="Androidwarriors "
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/list_desc"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_title"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/image_circular"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Place to dive into android programming"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textColor="#717171"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/list_email"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/image_circular"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="94dp"
+            android:ellipsize="end"
+            android:paddingLeft="3dp"
+            android:singleLine="true"
+            android:text="Place to dive into android programming"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textColor="#717171"
+            android:textSize="14sp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="94dp" />
+
+        <ImageView
+            android:id="@+id/image_favorite"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_home" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
